@@ -1,0 +1,39 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Chimobi",
+      "contact": "08152754557",
+      "email": "ishioduemmanuel@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstname": "Welekwe",
+      "lastname": "Miracle",
+      "contact": "07014894971",
+      "email": "welekwemiracle63@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstname": "Udo",
+      "lastname": "Prize",
+      "contact": "08055404145",
+      "email": "kevinuk@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstname": "Angel",
+      "lastname": "Obed",
+      "contact": "09031771596",
+      "email": "angelobed@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstname": "Chukwuebuka",
+      "lastname": "Emmanuel",
+      "contact": "09031771596",
+      "email": "qitufihi.ubateqi@gotgel.org"
+    }
+  ]
+}

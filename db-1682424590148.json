@@ -1,0 +1,19 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Chimobi",
+      "isExc": true
+    },
+    {
+      "id": 4,
+      "name": "Welekwe Miracle",
+      "isExc": true
+    },
+    {
+      "name": "Udo Prize",
+      "isExc": false,
+      "id": 7959
+    }
+  ]
+}
