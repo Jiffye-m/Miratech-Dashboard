@@ -135,6 +135,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 
   export default {
     name:'Customers',
@@ -156,11 +157,10 @@
       }
     },
     methods:{
-      async fetchCustomers(){
-        const res = await fetch('http://localhost:3000/customers')
-        const data = await res.json()
-        this.customers = data
-      },
+      async fetchCustomers(){  
+         axios .get('http://localhost:3000/customers')
+               .then(response => (this.customers = JSON.parse(response)))
+     },
     async addCust(){ if(!this.newCustomer){
       const id = 1
           const data = {id: parseInt(Math.random() * 10), firstname: this.firstname, lastname: this.lastname, contact: this.contact, email: this.email}
